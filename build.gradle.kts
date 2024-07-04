@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.one.mobile"
-version = "1.0.2"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -36,8 +36,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("145.2070.6")
-        untilBuild.set("242.19890.14")
+        sinceBuild.set("222.4554.10")
+        untilBuild.set("241.*")
     }
 
     signPlugin {
